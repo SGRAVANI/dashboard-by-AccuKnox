@@ -464,7 +464,7 @@ font-weight: 400;
     }
     .footer-btn{
         position: absolute;
-        bottom:4rem;
+        bottom:6rem;
         right:1rem;
         /* display: flex;
         justify-content: end;
