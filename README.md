@@ -5,4 +5,4 @@
 3. to run application - use command npm run dev
 
 (ii) to view deployed application on vercel:
-link: 
+link: https://dashboard-by-accu-knox.vercel.app/
