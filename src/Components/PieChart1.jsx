@@ -40,7 +40,7 @@ let data=wdata.map((ele,index)=>{
     return (
     <PieChart series={[{ data, innerRadius: 50 ,startAngle:360,endAngle:0,cx:80}]} {...size}    >
       <PieCenterLabel>
-      {`${total} Toral`}
+      {`${total} Total`}
       </PieCenterLabel>
     </PieChart>
   );
