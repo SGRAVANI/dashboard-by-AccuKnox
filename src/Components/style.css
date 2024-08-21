@@ -462,6 +462,15 @@ font-weight: 400;
        
       
     }
+    .footer-btn{
+        position: absolute;
+        bottom:2.5rem;
+        right:1rem;
+        /* display: flex;
+        justify-content: end;
+        gap:0.8rem */
+    
+    }
 
 }
 
