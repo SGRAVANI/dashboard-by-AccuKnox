@@ -1,0 +1,115 @@
+{"categories":[
+    {
+     "id":1,
+     "category":"CSPM",
+     "name":"CSPM Executive Dashboard",
+     "widgets":[
+      {
+        "id":"cspm-1",
+        "name":"Cloud Accounts",
+        "type":"pieChart",
+        "data":
+            [
+                { "value": 2, "label": "Connected" ,"color":"#4C3BCF"},
+                { "value": 2, "label": "Not Connected" ,"color":"#80C4E9"}
+              ],
+           
+        
+        "active":true
+      },
+      {
+        "id":"cspm-2",
+        "name":"Cloud Account Risk Assessment",
+        "type":"pieChart",
+        "data":
+        [
+            { "value": 1689, "label": "Failed" ,"color":"red"},
+            { "value": 681, "label": "Warning" ,"color":"yellow"},
+            { "value": 36, "label": "Not Available" ,"color":"silver"},
+            { "value": 7253, "label": "Passed" ,"color":"green"}
+          ],
+        
+        
+        "active":true
+    }
+    
+     ]
+     
+
+    },
+    {
+     "id":2,
+     "category":"CWPP",
+     "name":"CWPP Dashboard",    
+     "widgets":[
+       {
+        "id":"cwpp-1",
+        "name":"Top 5 Namespace Specific Alerts",
+        "type":"No-Data",
+        "data":{
+            
+        },
+        "active":true
+       },
+       {
+        "id":"cwpp-2",
+        "name":"Workload Alerts",
+        "type":"No-Data",
+        "data":{
+            
+        },
+        "active":true
+       }
+
+     ]
+    },
+    {
+        "id":3,
+        "category":"Image",
+        "name":"Registry Scan",
+        "widgets":[
+       {
+        "id":"image-1",
+        "name":"Image Risk Assesment",
+        "type":"bar-chart",
+        "data":{
+            "Critical":9,
+            "High":150,
+            "Medium":300,
+            "Warning":170,
+            "Low":50
+        },
+        "active":true
+       },
+       {
+        "id":"image-2",
+        "name":"Image Security Issues",
+        "type":"bar-chart",
+        "data":{
+            "Critical":2,
+            "High":2,
+            "Medium":2,
+            "Warning":1,
+            "Low":1
+            
+        },
+        "active":true
+       }
+    
+    ]      
+    },{
+        "id":4,
+        "category":"Ticket",
+        "name":"Ticket Dashboard",
+        "widgets":[{
+            "id":"ticket-1",
+            "name":"ticket - 1200 security breach",
+            "type":"No-Data",
+            "data":{
+
+            },
+            "active":true
+        }]
+
+    }
+]}
